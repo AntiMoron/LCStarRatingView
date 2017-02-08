@@ -118,9 +118,9 @@ typedef void(^LCStarRatingViewProgressDidChanedByUser)(CGFloat progress);
 /**
  Designated initializer.
  */
--(nonnull instancetype) init NS_DESIGNATED_INITIALIZER;
--(nonnull instancetype) initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;
--(nonnull instancetype) initWithCoder:(nullable NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
+-(instancetype) init NS_DESIGNATED_INITIALIZER;
+-(instancetype) initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;
+-(instancetype) initWithCoder:(nullable NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
 
 
 ///=============================================================================
